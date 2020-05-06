@@ -26,7 +26,7 @@ while( cn == "Y" or cn == "y" ):
         choiceLotto = list(set(choiceLotto))
         print("랜덤으로 뽑힌 Lotto 숫자 중에서 다시 랜덤으로 뽑은 숫자")
         for i in range(0, int(num)):
-            newLotto = random.sample(choiceLotto, 5)
+            newLotto = random.sample(choiceLotto, 6)
             newLotto.sort()
             print(newLotto)
     else:
